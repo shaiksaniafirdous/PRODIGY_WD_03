@@ -1,0 +1,39 @@
+
+body{
+    background:url(tic.jpg) no-repeat center center/cover;
+}
+.main{
+    background-color: #fff;
+    width: 30%;
+    height: 90px;
+    color: black;
+    font-size: 50px;
+ margin-bottom: 10px;
+    
+}
+.tic-tac-toe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #fff; */
+}
+
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+}
